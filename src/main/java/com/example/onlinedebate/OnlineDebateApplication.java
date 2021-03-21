@@ -1,4 +1,4 @@
-package com.example.employeemanager;
+package com.example.onlinedebate;
 
 import java.util.Arrays;
 
@@ -10,10 +10,10 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
 @SpringBootApplication
-public class EmployeemanagerApplication {
+public class OnlineDebateApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EmployeemanagerApplication.class, args);
+		SpringApplication.run(OnlineDebateApplication.class, args);
 	}
 
 	@Bean
